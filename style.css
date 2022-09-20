@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+    height: 100vh;
+    width: 100vw;
+}
+body{
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+    user-select: none;
+}
+
+.checkout-container{
+    width: 900px;
+    min-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3rem 0;
+}
+h1{
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+.card1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width:500px;
+    gap: 50px;
+    margin:0 3rem;
+    background-color: #f0f3f6;
+    padding: 2rem;
+    
+}
+.img{
+    width:150px;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 1rem;
+}
+.content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+.content h3{
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+.content .price{
+    font-size: 1.5rem;
+    color: orange;
+}
+.content .price span:nth-child(2){
+    font-size: 1rem;
+    text-decoration: line-through;
+    color: #333;
+}
+.content-container{
+    border: 1px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .5rem;
+    gap: 2rem;
+    margin-bottom: .5rem;
+    border-radius: 4px;
+    padding: .5rem 2rem;
+}
+.content-container button{
+    border: none;
+    background-color: #3333;
+    padding:.1rem .3rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.remove{
+    text-transform: capitalize;
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: .5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.product-total{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+.price_total{
+    background-color: #f0f3f6;
+    width: 500px;
+    padding:2rem 3rem;
+}
+.subtotal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    border-top: 1px solid #3333;
+    margin-bottom: 1rem;
+    padding-top: .5rem;
+}
+.price_total div p{
+    border-top: none;
+}
+.tax{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    border-top: 1px solid #3333;
+    margin-bottom: 1rem;
+    padding-top: .5rem;
+}
+.shipping{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    border-top: 1px solid #3333;
+    margin-bottom: 1rem;
+    padding-top: .5rem;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    border-top: 1px solid #3333;
+    margin-bottom: 1rem;
+    padding-top: .5rem;
+}
